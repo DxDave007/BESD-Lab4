@@ -1,0 +1,30 @@
+{
+  "name": "besd-lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "mocha test.js --timeout 5000 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "mysql2": "^3.19.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "nodemon": "^3.1.14"
+  }
+}
